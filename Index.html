@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - ONE</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="java.js">
+    <link rel="stylesheet" href="/css/estilo.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet"> 
+
+<body>
+    <header> 
+      <img class="logo" src="/imagenes/Logo.png" alt="logo alura">    
+    </header>
+
+    <main>
+        <section >
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui" ></textarea>
+            <div class="info">
+                <img src="/imagenes/exclamation-circle.svg" alt="signo de exclamacion en circulo">
+                <h6 class="informacion">Solo letras minúsculas</h6>
+            </div>
+            <div class="botones">
+                <button class="btn_encriptar" onclick="btnEncriptar()" ><img class="candado" src="/imagenes/candado.svg" alt="candado cerrado" > Encriptar</button>
+                <button class="btn_desencriptar"  onclick=" btnDesencriptar()"><img class="cand-abierto" src="/imagenes/candado-abierto.svg" alt="candado abierto" > Desencriptar</button>
+            </div>
+
+        </section>
+
+        <section >
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+                
+                <div>
+                    <button class="copiar" onclick="copy()"><img src="/imagenes/copia.svg" alt="imagen de signo de copiar"> Copiar</button>
+                </div>
+            
+
+        </section>
+                                
+    </main>
+
+    <footer>
+        <p class="copyright">© Creado por Laura Castillo Salas </p>
+    </footer>
+    <script src="/java.js"></script>
+</body>
+</html>

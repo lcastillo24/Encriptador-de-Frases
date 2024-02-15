@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../HTML 5 Y CSS3"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../proyect"
+		},
+		{
+			"path": "../../Ana"
+		},
+		{
+			"path": "../fotos"
+		},
+		{
+			"path": "../youtube"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "challenge",
+		"editor.linkedEditing": true
+	}
+}
