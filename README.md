@@ -1,6 +1,6 @@
 # ChallengeOne-Alura
 
-![ChallengeOne-Alura](./assets/Encriptador_img.png)
+![ChallengeOne-Alura](./assents/Encriptador_img.jpeg)
 
 ## Table of Contents
 
